@@ -7,7 +7,7 @@ using std::cin;
 using std::endl;
 
 //Programa 1: arreglo dinámico 
-
+void rellenar(int col, int fil, float **M);
 int main(int argc, char **argv){
 	//Se declaran variables
 	int n = 0;
@@ -28,7 +28,11 @@ int main(int argc, char **argv){
 /*int fact (int num){
 	
 }*/
-
+void rellenar (int col, int fil, float **M){
+	int a,b;
+		for (b =0;b<=col; b++){
+			M[a][b]=a+b;}
+		} 
 
 
 //Programa 2: Archivos de datos 
